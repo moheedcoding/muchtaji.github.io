@@ -301,12 +301,15 @@ footer .social-links li{
     flex-wrap:wrap;
     justify-content: center;
     list-style:none;
+    padding: 0;
+    margin: 0;
 }
 #body ul li{
     margin:10px;
 }
 #body ul li img{
     border:2px solid black;
+
 }
 
 /*gallery page section start coding*/
@@ -664,7 +667,7 @@ font-size:18px;
     }
 }
 
-/*meadia screen 512px*/
+/*meadia screen 512px m m m m m m*/
 
 @media screen and (max-width:512px){
 .intro-con div{
