@@ -310,6 +310,7 @@ footer .social-links li{
 #body ul li img{
     border:2px solid black;
 
+
 }
 
 /*gallery page section start coding*/
@@ -406,13 +407,15 @@ footer .social-links li{
     margin-top:10px;
     margin-bottom:30px;
 }
-#body-blog ul li{
+
+
+#body-blog ul li{         
     display:flex;
     margin-bottom:15px;
-    overflow: hidden;
     padding:0;
     border:2px solid black;
     height:295px;
+    overflow: hidden;
 }
 #body-blog ul li img{
     width:376px;
@@ -531,18 +534,24 @@ footer .social-links li{
 
 
 
-/*media screen 826px coding*/
+/*media screen 835px coding*/
 
 @media screen and (max-width:835px){
     #body-blog ul{
         width:375px;
     }
     #body-blog ul li{
+        display:flex;
         flex-direction:column;
+        height: auto;
+        overflow:hidden;
+    }
+    #body-blog ul li img{
+        border-bottom:2px solid black;
     }
     #body-blog ul li div{
         border-left:none;
-        border-top:2px solid black;
+        
     }
 }
 
@@ -667,7 +676,7 @@ font-size:18px;
     }
 }
 
-/*meadia screen 512px m m m m m m*/
+/*meadia screen 512px*/
 
 @media screen and (max-width:512px){
 .intro-con div{
